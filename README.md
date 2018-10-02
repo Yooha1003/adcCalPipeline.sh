@@ -44,25 +44,8 @@ Requirement:\
     3. gradunwarp installation (HCP pipeline script) / gdc.sh (in-house script)\
     4. FSL installation (and eddy_cpu binary file from 5.0.11 patch)\
     5. ANTs installation\
-    6. Data file name list without any extension (6 SLOTs supported)\
-      1)  [Mandatory] INV1 (MP2RAGE)\
-      2)  [Mandatory] INV2 (MP2RAGE)\
-      3)  [Mandatory] UNI (MP2RAGE)\
-      4)  [Mandatory] T1 (MP2RAGE)\
-      5)  [Mandatory] TSE (Turbo Spin Echo)\
-      6)  [Mandatory] PA (DWI)\
-      7)  [SLOT1] for DWI (if you want to skip this slop, input "0" in the text file)\
-      8)  [SLOT2] for DWI (if you want to skip this slop, input "0" in the text file)\
-      9)  [SLOT3] for DWI (if you want to skip this slop, input "0" in the text file)\
-      10) [SLOT4] for DWI (if you want to skip this slop, input "0" in the text file)\
-      11) [SLOT5] for EPI PA (if you want to skip this slop, input "0" in the text file)\
-      12) [SLOT6] for EPI AP (if you want to skip this slop, input "0" in the text file)\
-    7. Readout time list with a determined order (5 SLOTs supported)\
-      1)  [TIME1] SLOT1 image readout time\
-      2)  [TIME2] SLOT2 image readout time\
-      3)  [TIME3] SLOT3 image readout time\
-      4)  [TIME4] SLOT4 image readout time\
-      5)  [TIME5] SLOT6 image readout time\
+    6. Data file name list without any extension\
+    7. Readout time list with a determined order\
     8. fastSegASingle.sh (in-house script for MP2RAGE segmentation)\
     9. yhBrainExt.sh (in-house script for brain extraction, in case of an absence of UNI image)
     
