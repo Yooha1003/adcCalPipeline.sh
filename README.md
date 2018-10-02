@@ -38,7 +38,7 @@ Pipeline script for calculating adc values from an anatomical image registered d
       
 ----------------------------------------------------------------------------------------------------
 
-Requirement:
+Requirement:\
     1. MP2RAGE sequence images (INV1/INV2/T1/UNI) / TSE image / DWI images / (optional) EPI images\
     2. Python 2.7 installation\
     3. gradunwarp installation (HCP pipeline script) / gdc.sh (in-house script)\
