@@ -24,7 +24,7 @@ Pipeline script for calculating adc values from an anatomical image registered d
 
 ----------------------------------------------------------------------------------------------------
   Example Usage:
-  adcCalPipeline.sh -f file_list.txt -t readout_time.txt -g coeff.grad -a 800 -b 2000
+  adcCalPipeline.sh -f file_list.txt -t readout_time.txt -g coeff.grad -a bval1 -b bval2
 
   (Optional)
   adcCalPipeline.sh -ver (see the version)
